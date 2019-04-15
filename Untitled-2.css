@@ -1,0 +1,60 @@
+header {
+    background-color: royalblue;
+    padding: 40px;
+}
+div{
+    font-family:Arial;
+    font-size: 24px;
+    height:400px;
+    /* background-color: rgb(111, 169, 245); */
+}
+.col{
+    width:100px;
+    float: left; 
+}
+.label{
+    width:100px;
+    float: left;
+    /* border-style: solid none solid solid; */
+    background-color: rgb(169, 226, 248);
+}
+.input{
+    width:350px;
+    float: left;
+    /* border-style: solid solid solid none; */
+    background-color: rgb(169, 226, 248);
+}
+.col1{
+    width:200px;
+    float: left; 
+}
+.output{
+    width:500px;
+    float: left;
+}
+input[type=text], input[type=number]{
+    font-family:Arial;
+    font-size: 20px;
+    width: 90%;
+    padding: 0.5px;
+    border: 1px solid #ccc;
+}
+input[type=radio]{
+    width: 1.5em;
+    height: 1.5em;
+}
+input[type=button] {
+    /* background-color: #4CAF50;
+    color: white; */
+    padding: 4px 12px;
+    font-family: Arial;
+    font-size: 24px;
+    /* border: none;
+    border-radius: 4px; */
+    cursor: pointer;
+    float: left;
+}
+footer {
+    background-color: royalblue;
+    padding: 40px;
+}
